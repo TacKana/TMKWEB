@@ -1,0 +1,7 @@
+- [首页](http://www.tmkmc.asia)
+- [导航](README.md)
+- [联系我们](zhcn/QQqun)   
+- [生电服](/zhcn/shengdianfu)
+- [关于TMK](/zhcn/guanuTMK)
+- [赞助TMK](/zhcn/zazhu)
+- [友链](/zhcn/youlian)

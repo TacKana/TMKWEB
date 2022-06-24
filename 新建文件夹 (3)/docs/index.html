@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <title>Minecraft@TMK官网</title>
+  <h1 align="center" style="color:rgb(242,72,27) ; font-size:0px">屑狐中考加油！</h1>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="TMK TMK服务器 乐 TMK 关于TMK 联系TMK 加入TMK 加入TMK服务器TMK 生电服 生电 TMK生电 TMK生电服 关于TMK 联系TMK 加入TMK 加入TMK服务器TMK 生电服 生电 TMK生电 TMK生电服 关于TMK 联系TMK 加入TMK 加入TMK服务器">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.staticfile.org/docsify/4.12.2/themes/vue.css">
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?e4efc47b6a3f1c527f79bbf471273669";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>  
+  <meta name="sogou_site_verification" content="xVQZqd5glA" />       
+</head>
+<body>
+  <div id="app">很快！等我一下</div>
+  <script>
+    window.$docsify = {
+      name: 'TMK官网',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      coverpage: true,
+      mergeNavbar: true,
+      externalLinkTarget: '_self',
+      //插件设置
+// -----------------------------------------------------
+//<!-- 通过配置文件自定义导航 -->
+
+
+
+
+//添加搜索功能，中文和英文文档同时搜索
+search: {
+               placeholder: {
+               '/':'🔍 搜索',
+                          },
+              //如果中文和英文文档都没有内容，则返回
+              noData: {
+               '/':'😒 找不到结果',
+                         },
+             depth: 4,         //搜索标题的最大层级
+             maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+            },//增加搜索框
+// 分页导航插件
+pagination: {
+                previousText: '上一卷',
+                nextText: '下一卷',
+                crossChapter: true,
+                crossChapterText: true    
+              },  
+'flexible-alerts': {
+      style: 'flat'
+    },
+// 页脚信息插件
+loadFooter: true,
+      loadFooter: '_footer.md'        
+       }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.staticfile.org/docsify/4.12.2/docsify.js"></script>
+  <!-- 搜索 -->
+  <script src="//cdn.staticfile.org/docsify/4.12.2/plugins/search.min.js"></script>
+  <!-- 分章节按钮 -->
+  <script type="text/javascript" src="js/docsify-pagination.min.js"></script>
+  <!-- 文本高亮 -->
+  <script type="text/javascript" src="js/docsify-plugin-flexible-alerts.JS"></script>
+  <!-- 页脚信息 -->
+  <script type="text/javascript" src="js/docsifyfooter.min.js"></script>
+  <!-- 运行时间统计 -->
+  <script language=javascript>
+    function siteTime() {
+     window.setTimeout("siteTime()", 1000);
+     var seconds = 1000;
+     var minutes = seconds * 60;
+     var hours = minutes * 60;
+     var days = hours * 24;
+     var years = days * 365;
+     var today = new Date();
+     var todayYear = today.getFullYear();
+     var todayMonth = today.getMonth() + 1;
+     var todayDate = today.getDate();
+     var todayHour = today.getHours();
+     var todayMinute = today.getMinutes();
+     var todaySecond = today.getSeconds();
+     /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+     year - 作为date对象的年份，为4位年份值
+     month - 0-11之间的整数，做为date对象的月份
+     day - 1-31之间的整数，做为date对象的天数
+     hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+     minutes - 0-59之间的整数，做为date对象的分钟数
+     seconds - 0-59之间的整数，做为date对象的秒数
+     microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+     var t1 = Date.UTC(2022, 05, 10, 00, 00, 00); //北京时间2020-02-10 00:00:00
+     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+     var diff = t2 - t1;
+     var diffYears = Math.floor(diff / years);
+     var diffDays = Math.floor((diff / days) - diffYears * 365);
+     var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+     var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+     var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+     document.getElementById("sitetime").innerHTML = " 本网站已运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒 ";
+   }
+   siteTime();</script>
+</body>
+</html>
